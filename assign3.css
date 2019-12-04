@@ -1,8 +1,8 @@
-h1, h2 {
+h1, h2,  h3 {
 	text-align: center;
 	color: black;
 }
-body{  background-color: #708088}
+body{  background-color: #aaaaaa}
 * {
 	font-family: Arial, sans;
 	margin: 0;
@@ -18,7 +18,7 @@ body{  background-color: #708088}
 	display: none;
 }
 #accordion label {
-	background: #eee;
+	background: #000;
 	border-radius: .25em;
 	cursor: pointer;
 	display: block;
@@ -27,7 +27,7 @@ body{  background-color: #708088}
 	z-index: 20;
 }
 #accordion label:hover {
-	background: #ccc;
+	background: #fff;
 }
 
 #accordion input:checked + label {
@@ -38,7 +38,7 @@ body{  background-color: #708088}
 	margin-bottom: 0;
 }
 #accordion article {
-	background: #f7f7f7;
+	background: #ffffff;
 	height:0px;
 	overflow:hidden;
 	z-index:10;
@@ -53,4 +53,8 @@ body{  background-color: #708088}
 	border-bottom-right-radius: .25em;
 	height: auto;
 	margin-bottom: .125em;
+}
+#accordian label
+{
+	text-color: blue;
 }
