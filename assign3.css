@@ -2,6 +2,7 @@ h1, h2,  h3 {
 	text-align: center;
 	color: black;
 }
+img {align-content: center;}
 body{  background-color: #aaaaaa}
 * {
 	font-family: Arial, sans;
@@ -25,6 +26,8 @@ body{  background-color: #aaaaaa}
 	margin-bottom: .125em;
 	padding: .25em 1em;
 	z-index: 20;
+	text-align: center;
+	text-decoration-color: blue;
 }
 #accordion label:hover {
 	background: #fff;
@@ -54,7 +57,9 @@ body{  background-color: #aaaaaa}
 	height: auto;
 	margin-bottom: .125em;
 }
-#accordian label
-{
-	text-color: blue;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
